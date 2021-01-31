@@ -1,4 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+* {
+  color: #343a40; }
+
+a {
+  text-decoration: none !important; }
+
+header {
+  background: #FFC107;
+  padding: 25px; }
+  header form {
+    display: flex; }
+    header form input {
+      background: #fff;
+      width: 100%;
+      border: none;
+      border-radius: 100px;
+      padding: 8px 20px; }
+    header form button {
+      background: none;
+      border: none;
+      position: absolute;
+      right: 40px; }
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
