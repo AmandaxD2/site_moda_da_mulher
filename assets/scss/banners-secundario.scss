@@ -1,17 +1,17 @@
-@mixin banners-secundario ($cor, $url-image) {
+@mixin banners-secundario-1 ($cor, $url-image) {
     background-color: $cor;
     background-image: url ($url-image);
     
 }
 .banners-secundario{
     .banners-secundario-12x {
-        @include banners-secundario ( $rosa, '../img/parcele-em-12x.jpg');
+        @include banners-secundario-1 ( $rosa, '../img/parcele-em-12x.jpg');
 
 
     }
 
     .banners-secundario-entrega-br {
-        @include banners-secundario ( $roxo, '../img/entrega-para-todo-brasil.jpg');
+        @include banners-secundario-1 ( $roxo, '../img/entrega-para-todo-brasil.jpg');
 
     }
 }
