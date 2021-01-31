@@ -1,0 +1,21 @@
+nav.nav-produtos{
+    background: $cor-secundaria;
+    color: $branco;
+    ul.nav{
+        li{
+            position: relative;
+            padding: 10px 0;
+            float: left;
+
+            svg{
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+            
+            ul.nav{
+                display: none;
+            }
+        }
+    }
+}

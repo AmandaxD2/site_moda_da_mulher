@@ -10,29 +10,48 @@ header {
         border: none;
         border-radius: 100px;
         padding: 8px 20px;
-    }
+        }
       button {
           background: none;
           border:none;
           position: absolute;
           right: 40px;
-          
-
-      }
+        }
+    
     }
 
-    ul {
+    ul{
         li{
             position: relative;
-        }
+            span.notificacao{
+                color: $branco;
+                background: $rosa;
+                position: absolute;
+                top: -10px;
+                left: 3px;
+                
 
-    }
+            
+                font-size: 10px;
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                text-align: center;
+               
+
+            }
+        }
 
     a { 
         font-size: 16px;
         font-weight: bold;
-        text-decoration-color: $cor-secundaria;
+        color: $cor-secundaria;
+
+        &:hover{
+            color: initial;
+        }
     }
 
+    }
     
 }
