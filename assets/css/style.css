@@ -62,12 +62,38 @@ nav.nav-produtos {
         padding: 10px 25px;
         width: 100%; }
 
-.banners-secundario .banners-secundario-12x {
-  background-color: #ff0f9a;
-  background-image: url "../img/parcele-em-12x.jpg"; }
-.banners-secundario .banners-secundario-entrega-br {
-  background-color: #b343c3;
-  background-image: url "../img/entrega-para-todo-brasil.jpg"; }
+.banners-secundario {
+  margin-top: 30px; }
+  .banners-secundario .banners-secundario-12x {
+    background-color: #ff0f9a;
+    background-image: url("../img/parcele-em-12x.jpg"); }
+  .banners-secundario .banners-secundario-entrega-br {
+    background-color: #b343c3;
+    background-image: url("../img/entrega-para-todo-brasil.jpg"); }
+  .banners-secundario .banners-secundario-12x,
+  .banners-secundario .banners-secundario-entrega-br {
+    background-size: cover;
+    padding: 20px 60px;
+    height: 105px;
+    color: #fff; }
+    .banners-secundario .banners-secundario-12x svg, .banners-secundario .banners-secundario-12x p,
+    .banners-secundario .banners-secundario-entrega-br svg,
+    .banners-secundario .banners-secundario-entrega-br p {
+      margin: 0;
+      padding: 0; }
+    .banners-secundario .banners-secundario-12x svg,
+    .banners-secundario .banners-secundario-entrega-br svg {
+      width: 55px;
+      height: 55px; }
+    .banners-secundario .banners-secundario-12x p,
+    .banners-secundario .banners-secundario-entrega-br p {
+      font-weight: 100;
+      font-size: 23px;
+      line-height: 110%;
+      margin-left: 20px; }
+      .banners-secundario .banners-secundario-12x p strong,
+      .banners-secundario .banners-secundario-entrega-br p strong {
+        font-weight: bold; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)

@@ -1,17 +1,50 @@
-@mixin banners-secundario-1 ($cor, $url-image) {
+@mixin banners-secundario($cor, $url-image) {
     background-color: $cor;
-    background-image: url ($url-image);
+    background-image: url($url-image);
     
 }
 .banners-secundario{
+
+    margin-top: 30px;
     .banners-secundario-12x {
-        @include banners-secundario-1 ( $rosa, '../img/parcele-em-12x.jpg');
+        @include banners-secundario( $rosa, '../img/parcele-em-12x.jpg');
 
 
     }
 
-    .banners-secundario-entrega-br {
-        @include banners-secundario-1 ( $roxo, '../img/entrega-para-todo-brasil.jpg');
+    .banners-secundario-entrega-br{
+        @include banners-secundario( $roxo, '../img/entrega-para-todo-brasil.jpg');
+
+    }
+
+    .banners-secundario-12x,
+    .banners-secundario-entrega-br{
+        background-size: cover;
+        padding: 20px 60px;
+        height: 105px;
+        color: $branco;
+
+        svg,p {
+            margin: 0;
+            padding: 0;
+        }
+
+        svg{
+            width: 55px ;
+            height: 55px;
+           
+        }
+
+        p{
+            font-weight: 100;
+            font-size: 23px;
+            line-height: 110%;
+            margin-left: 20px;
+
+            strong{
+                font-weight: bold;
+            }
+        }
 
     }
 }
