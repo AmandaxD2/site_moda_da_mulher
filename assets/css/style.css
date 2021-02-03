@@ -37,7 +37,8 @@ header {
 
 nav.nav-produtos {
   background: #343a40;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 20px; }
   nav.nav-produtos ul.nav li {
     position: relative;
     padding: 10px; }
